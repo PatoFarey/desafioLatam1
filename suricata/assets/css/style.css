@@ -1,0 +1,27 @@
+:root{
+    --magenta : #E83E8C;
+    --celeste: #17A2B8;
+}
+
+.fondoColor {
+    background-color: var(--magenta) !important;
+}
+
+.icons-section {
+    background-color: var(--celeste);
+}
+
+.icons-section ul {
+    list-style-type: none;
+}
+
+.icons-section ul li {
+    display: inline-block;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+.icons-section ul  {
+    padding-left: 0px;
+}
+
