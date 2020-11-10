@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Desafio 5</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+    <style>
+        #box {
+            width: 170px;
+            height: 170px;
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="box"></div>
+    <br>
+    <button id="btnCambiarTamano"> Cambiar </button>
+   
+    <script>
+        var caja = document.getElementById("box");
+        var verde = document.getElementById('btnCambiarTamano');
+                
+        btnCambiarTamano.addEventListener('click', function () {
+            caja.style.width =  "100px";
+            caja.style.height =  "100px";
+        });
+       
+    </script>
+
+
+
+</body>
+
+</html>

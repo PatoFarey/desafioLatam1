@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Desafio 4</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+    <style>
+        nav {
+            height: 70px;
+            background-color: black;
+            color: white;
+            padding: 0px;
+            line-height: 70px;
+            padding-left: 20px;
+        }
+
+        nav.hide {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="nav">
+        <a onclick="Esconder()"> Esconder </a>
+    </nav>
+    <a onclick="Mostrar()"> Mostrar </a>
+
+    <script>
+        function Esconder()
+        {
+            document.getElementById('nav').style.display ='none';
+        }
+
+        function Mostrar()
+        {
+            document.getElementById('nav').style.display ='block';
+        }
+
+    </script>
+</body>
+
+</html>
